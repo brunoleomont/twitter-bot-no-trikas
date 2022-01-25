@@ -1,0 +1,17 @@
+{
+  "name": "twitter_bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^14.2.0",
+    "got": "11.0.0",
+    "needle": "^3.0.0",
+    "oauth-1.0a": "^2.2.6",
+    "twit": "^2.2.11",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

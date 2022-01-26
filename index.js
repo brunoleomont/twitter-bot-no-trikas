@@ -4,11 +4,11 @@ require('dotenv').config()
 
 // Configuração das variáveis de ambiente
 const Bot = new Twit({
-    consumer_key:           process.env.BOT_CONSUMER_KEY,
-    consumer_secret:        process.env.BOT_CONSUMER_SECRET,
-    access_token:           process.env.BOT_ACCESS_TOKEN,
-    access_token_secret:    process.env.BOT_ACCESS_TOKEN_SECRET,
-    timeout_ms:             60 * 1000
+    consumer_key: process.env.BOT_CONSUMER_KEY,
+    consumer_secret: process.env.BOT_CONSUMER_SECRET,
+    access_token: process.env.BOT_ACCESS_TOKEN,
+    access_token_secret: process.env.BOT_ACCESS_TOKEN_SECRET,
+    timeout_ms: 60 * 1000
 });
 
 function BotInit() {
